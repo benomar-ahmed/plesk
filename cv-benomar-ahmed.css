@@ -1,0 +1,76 @@
+body {
+    color: black;
+    background-image: url("Images/background.webp")
+}
+
+#Titre {
+    font-family: 'Rye', cursive;
+}
+
+.img1 {
+    width: 480px;
+    height: 400px 
+}
+
+h3,.part {
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+header {
+    background-color: #ffffff;
+    border: 5px solid;
+    padding: 2%;
+    margin: 0%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Zilla Slab', serif;
+    color: black;
+}
+
+aside {
+    float: left;
+    margin: 1%;
+}
+
+#flex {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.partie {
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start;
+}
+
+#img_skills {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    padding-right: 22px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 2%;
+    margin: 0%;
+    background-color: #ffffff;
+    border: 5px solid;
+}
